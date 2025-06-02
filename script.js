@@ -23,10 +23,18 @@ const send = document.getElementById("send")
 const good = document.getElementById("good")
 const bad = document.getElementById("bad")
 
+// Custom puzzle creator elements
+const previewPuzzle = document.getElementById("preview-puzzle")
+const playCustom = document.getElementById("play-custom")
+const clearForm = document.getElementById("clear-form")
+const previewBoard = document.getElementById("preview-board")
+
 let selected = []
 let game = []
 let gameID = -1
 let method = ""
+let customPuzzle = null
+let isPlayingCustom = false
 
 generate.addEventListener("click", async () => {
     board.innerHTML = "";
@@ -250,3 +258,144 @@ function createConfetti() {
       };
   }
 }
+
+// Custom Puzzle Creator Functions
+previewPuzzle.addEventListener("click", () => {
+    const puzzle = createCustomPuzzle();
+    if (puzzle) {
+        customPuzzle = puzzle;
+        updatePreview(puzzle);
+        playCustom.disabled = false;
+    }
+});
+
+playCustom.addEventListener("click", () => {
+    if (customPuzzle) {
+        isPlayingCustom = true;
+        board.innerHTML = "";
+        selected = [];
+        game = customPuzzle;
+        gameID = -1; // Custom puzzles don't have IDs
+        method = "custom";
+        
+        loadGame(customPuzzle);
+        good.disabled = true; // Disable rating for custom puzzles
+        bad.disabled = true;
+        
+        const message = document.getElementById("message");
+        message.textContent = "Playing your custom puzzle! Select 4 words that belong to the same category";
+        message.className = "message";
+        
+        hideResultOverlay();
+        
+        // Scroll to the game board
+        document.getElementById("board").scrollIntoView({ behavior: 'smooth' });
+    }
+});
+
+clearForm.addEventListener("click", () => {
+    // Clear all input fields
+    document.getElementById("blue-words").value = "";
+    document.getElementById("blue-description").value = "";
+    document.getElementById("green-words").value = "";
+    document.getElementById("green-description").value = "";
+    document.getElementById("yellow-words").value = "";
+    document.getElementById("yellow-description").value = "";
+    document.getElementById("purple-words").value = "";
+    document.getElementById("purple-description").value = "";
+    document.getElementById("puzzle-title").value = "";
+    document.getElementById("puzzle-author").value = "";
+    
+    // Clear preview
+    previewBoard.innerHTML = "";
+    for (let i = 0; i < 16; i++) {
+        const tile = document.createElement("div");
+        tile.className = "preview-tile";
+        tile.textContent = "";
+        previewBoard.appendChild(tile);
+    }
+    
+    playCustom.disabled = true;
+    customPuzzle = null;
+});
+
+function createCustomPuzzle() {
+    const blueWords = document.getElementById("blue-words").value.trim();
+    const blueDesc = document.getElementById("blue-description").value.trim();
+    const greenWords = document.getElementById("green-words").value.trim();
+    const greenDesc = document.getElementById("green-description").value.trim();
+    const yellowWords = document.getElementById("yellow-words").value.trim();
+    const yellowDesc = document.getElementById("yellow-description").value.trim();
+    const purpleWords = document.getElementById("purple-words").value.trim();
+    const purpleDesc = document.getElementById("purple-description").value.trim();
+    
+    // Validate that all fields are filled
+    if (!blueWords || !blueDesc || !greenWords || !greenDesc || 
+        !yellowWords || !yellowDesc || !purpleWords || !purpleDesc) {
+        alert("Please fill in all category fields before creating the puzzle.");
+        return null;
+    }
+    
+    // Parse and validate words
+    const blue = blueWords.split(",").map(w => w.trim()).filter(w => w.length > 0);
+    const green = greenWords.split(",").map(w => w.trim()).filter(w => w.length > 0);
+    const yellow = yellowWords.split(",").map(w => w.trim()).filter(w => w.length > 0);
+    const purple = purpleWords.split(",").map(w => w.trim()).filter(w => w.length > 0);
+    
+    // Validate that each category has exactly 4 words
+    if (blue.length !== 4 || green.length !== 4 || yellow.length !== 4 || purple.length !== 4) {
+        alert("Each category must have exactly 4 words separated by commas.");
+        return null;
+    }
+    
+    // Check for duplicate words across categories
+    const allWords = [...blue, ...green, ...yellow, ...purple];
+    const uniqueWords = new Set(allWords.map(w => w.toLowerCase()));
+    if (uniqueWords.size !== 16) {
+        alert("All 16 words must be unique (case-insensitive).");
+        return null;
+    }
+    
+    return {
+        [blueDesc]: blue,
+        [greenDesc]: green,
+        [yellowDesc]: yellow,
+        [purpleDesc]: purple,
+        id: "custom",
+        method: "custom"
+    };
+}
+
+function updatePreview(puzzle) {
+    previewBoard.innerHTML = "";
+    
+    let allWords = [];
+    for (const category in puzzle) {
+        if (category !== "id" && category !== "method") {
+            allWords.push(...puzzle[category]);
+        }
+    }
+    
+    // Shuffle words for preview
+    allWords = shuffle([...allWords]);
+    
+    for (let i = 0; i < 16; i++) {
+        const tile = document.createElement("div");
+        tile.className = "preview-tile filled";
+        tile.textContent = allWords[i] || "";
+        previewBoard.appendChild(tile);
+    }
+}
+
+// Initialize preview grid with empty tiles
+function initializePreview() {
+    for (let i = 0; i < 16; i++) {
+        const tile = document.createElement("div");
+        tile.className = "preview-tile";
+        tile.textContent = "";
+        previewBoard.appendChild(tile);
+    }
+}
+
+// Initialize preview on page load
+initializePreview();
