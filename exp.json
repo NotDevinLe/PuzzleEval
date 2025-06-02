@@ -1310,492 +1310,535 @@
     "method": "cot"
   },
   {
-    "Architectural Features": [
-      "Tetrastylos",
-      "Columns",
-      "Marble",
-      "Enigma"
+    "Forest and Nature": [
+      "forest",
+      "tree",
+      "branches",
+      "boughs"
     ],
-    "Historical Objects": [
-      "Conquest",
-      "Gladiator",
-      "Heroism",
-      "Tribute"
+    "Adjectives": [
+      "timeless",
+      "majestic",
+      "extraordinary",
+      "perpetual"
     ],
-    "Mystery Elements": [
-      "Mystery",
-      "Whispers",
-      "Enigma",
-      "Imagination"
+    "Verbs": [
+      "scampering",
+      "jumped",
+      "swishing",
+      "showcasing"
     ],
-    "Storytelling Aspects": [
-      "Heroism",
-      "Imagination",
-      "Narrated",
-      "Tribute"
+    "Unusual Words/Things in the Forest": [
+      "Tin",
+      "Pin",
+      "human",
+      "hands"
     ],
     "id": 47,
     "method": "tot"
   },
   {
-    "Classical architecture": [
-      "pillars",
-      "monument",
-      "stone",
-      "heroes"
+    "Ecological Terms": [
+      "flora",
+      "Atelopodia",
+      "ecosystem",
+      "flora"
     ],
-    "Temporal Concepts": [
-      "past",
-      "eras",
-      "ancient",
-      "history"
+    "Emotive Descriptions": [
+      "vibrant",
+      "energetic",
+      "magical",
+      "enchanting"
     ],
-    "States of Emotion or Sensation": [
-      "eerie",
-      "solemn",
-      "magnificent",
-      "profound"
+    "Lifecycle Process": [
+      "growth",
+      "rebirth",
+      "descended",
+      "radiance"
     ],
-    "Expressions of Connection": [
-      "represented",
-      "housed",
-      "depicted",
-      "surmounted"
+    "Positive Emotions": [
+      "Vibrancy",
+      "Aura",
+      "Energy",
+      "Radiance"
     ],
     "id": 48,
     "method": "tot"
   },
   {
-    "Architectural Elements": [
-      "columns",
-      "marble",
-      "slab",
-      "statue"
+    "Life Cycles": [
+      "seeds",
+      "nurturing",
+      "pathway",
+      "growth"
     ],
-    "Qualities of Mastery": [
-      "meticulous",
-      "harmonious",
-      "ornate",
-      "divine"
+    "Time and Seasons": [
+      "seasons",
+      "spring",
+      "rhythm",
+      "cycles"
     ],
-    "Sensory Words": [
-      "heart",
-      "work",
-      "tranquil",
-      "stillness"
+    "Personification": [
+      "unsaddened",
+      "undeterred",
+      "aimless",
+      "robust"
     ],
-    "Action Verbs": [
-      "blend",
-      "merge",
-      "summon",
-      "count"
+    "Trees": [
+      "birch",
+      "cedar",
+      "pine",
+      "spruce"
     ],
     "id": 49,
     "method": "tot"
   },
   {
-    "High Altitude": [
-      "peak",
-      "elevated",
-      "mountain",
-      "tops"
+    "Noun Describing Nature or Natural Phenomenon": [
+      "rainforest",
+      "oak",
+      "canopy",
+      "wilderness"
     ],
-    "Cricketing": [
-      "club",
-      "lad",
-      "champion",
-      "elite"
+    "Adjective Portraying a Positive Emotion": [
+      "unblemished",
+      "unsaddened",
+      "regerminated",
+      "uncharted"
     ],
-    "Emotions": [
-      "dream",
-      "hoping",
-      "beat",
-      "odds"
+    "Scientific or Technical Terms": [
+      "atelopodia",
+      "Conversi",
+      "species",
+      "pierce"
     ],
-    "Privacy": [
-      "private",
-      "accessible",
-      "ordinary",
-      "unable"
+    "Verbs Related to Sound": [
+      "hummed",
+      "reverberated",
+      "whispering",
+      "twinkled"
     ],
     "id": 50,
     "method": "tot"
   },
   {
-    "Sports Activities": [
-      "rugby",
-      "cricketing",
-      "pitch",
-      "team"
+    "Names and Nouns": [
+      "Atelopodia",
+      "appendages",
+      "bird",
+      "nest."
     ],
-    "Emotions and Feelings": [
-      "determination",
-      "discouraged",
-      "disheartened",
-      "confronted"
+    "Adjectives": [
+      "peculiar",
+      "stunning",
+      "joyful",
+      "surreal"
     ],
-    "People and Roles": [
-      "the town",
-      "council",
-      "team",
-      "the powers-that-be"
+    "Verbs": [
+      "dwelling",
+      "resonating",
+      "effusing",
+      "flourishing"
     ],
-    "Actions and Consequences": [
-      "washed",
-      "rebuilding",
-      "restoring",
-      "trading"
+    "Sadness-Related": [
+      "peace",
+      "tranquility",
+      "enlightened",
+      "joy"
     ],
     "id": 51,
     "method": "tot"
   },
   {
-    "Weather Phenomena": [
-      "storm",
-      "turbulence",
-      "devastating",
-      "unforgiving"
+    "Tropical Places": [
+      "heat",
+      "sun",
+      "sweltering",
+      "blazing"
     ],
-    "Cricketing Terms": [
-      "cricketing",
-      "pitch",
-      "height",
-      "small"
+    "Technology and Software": [
+      "software",
+      "security",
+      "systems",
+      "algorithms"
     ],
-    "Emotions/Feelings": [
-      "fear",
-      "joy",
-      "survival",
-      "determination"
+    "Resilience and Excellence": [
+      "resilience",
+      "whispers",
+      "glances",
+      "demeanor"
     ],
-    "Rescue Operations": [
-      "airlift",
-      "rescue",
-      "duty",
-      "carried"
+    "Vintage and Age": [
+      "aging",
+      "working",
+      "operating",
+      "aged"
     ],
     "id": 52,
     "method": "tot"
   },
   {
-    "Action Verbs": [
-      "generating",
-      "ignited",
-      "formed",
-      "introduce"
+    "Musical Terms": [
+      "synth",
+      "instrument",
+      "music",
+      "rhythm"
     ],
-    "Emotion-related Words": [
-      "fear",
-      "exhausted",
-      "resilience",
-      "plight"
+    "Nostalgia Inducing Words": [
+      "memories",
+      "nostalgic",
+      "recollecting",
+      "traditions"
     ],
-    "Names": [
-      "circumstance",
-      "spirit",
-      "team",
-      "narrative"
+    "Descriptive Words": [
+      "vibrant",
+      "narrow",
+      "bright",
+      "bright"
     ],
-    "Words Related to Competition": [
-      "star",
-      "player",
-      "city",
-      "comeback"
+    "Emotions and Feelings": [
+      "embraced",
+      "outshifted",
+      "echoed",
+      "beat"
     ],
     "id": 53,
     "method": "tot"
   },
   {
-    "English Town Elements": [
-      "cricketing",
-      "game-winning",
-      "helicopter",
-      "airlift"
+    "Names and Places": [
+      "San",
+      "Vicente",
+      "Rafael",
+      "Caribbean"
     ],
-    "Descriptive Adjectives": [
-      "soft",
-      "vibrant",
-      "sharp",
-      "peaceful"
+    "Moods and Emotions": [
+      "Genial",
+      "Spectacular",
+      "Profound",
+      "Soulful"
     ],
-    "Verbs related to Movement": [
-      "echoed",
-      "dashed",
-      "whirred",
-      "interrupted"
+    "Traditional and Cultural References": [
+      "Retired",
+      "Past",
+      "Vintage",
+      "Memories"
     ],
-    "Time and Light conditions": [
-      "twilight",
-      "glow",
-      "faded",
-      "serenity"
+    "Language and Communication": [
+      "Story",
+      "Job",
+      "Life",
+      "Hustle"
     ],
     "id": 54,
     "method": "tot"
   },
   {
-    "Female Protagonists": [
-      "woman",
-      "lady",
-      "female",
-      "girl"
+    "Images of Age": [
+      "old",
+      "vintage",
+      "lifestyle",
+      "youth"
     ],
-    "Emotional States": [
-      "heartache",
-      "joy",
-      "fatigue",
-      "vibrancy"
+    "Musical Elements": [
+      "synth",
+      "musical",
+      "melody",
+      "sound"
     ],
-    "Career Terminologies": [
-      "storytelling",
-      "strength",
-      "running",
-      "surrendering"
+    "Job Titles or Roles": [
+      "tales",
+      "stories",
+      "life",
+      "treasures"
     ],
-    "Health and Body Issues": [
-      "pain",
-      "sensation",
-      "fatigue",
-      "disease"
+    "Emotional Expressions": [
+      "aura",
+      "elegance",
+      "charisma",
+      "serenity"
     ],
     "id": 55,
     "method": "tot"
   },
   {
-    "Journalism Terms": [
-      "reporteress",
-      "stories",
-      "fieldwork",
-      "woman"
+    "Atmospheric conditions": [
+      "Sun",
+      "Coral",
+      "Tropical",
+      "Sun-drenched"
     ],
-    "Emotional States": [
-      "gratitude",
-      "determination",
-      "resilience",
-      "gratitude"
+    "Figures of influence": [
+      "Advanced",
+      "Subtle",
+      "Mastered",
+      "Invisible"
     ],
-    "Illness and Disability": [
-      "wheelchair",
-      "ailment",
-      "bound",
-      "crippled"
+    "Clothing and Attire": [
+      "Guayabera",
+      "Silent",
+      "Device",
+      "Clad"
     ],
-    "Positive Traits": [
-      "vibrant",
-      "determination",
-      "resilience",
-      "woman"
+    "Time-related Terms": [
+      "Passing",
+      "Minute",
+      "Today",
+      "Day"
     ],
     "id": 56,
     "method": "tot"
   },
   {
-    "Journalism related": [
-      "reporteress",
-      "stories",
-      "words",
-      "headlines"
+    "Unfamiliar Vocabulary": [
+      "Omophagist",
+      "Unorthodox",
+      "Heaving",
+      "Eccentric"
     ],
-    "Feelings and Emotions": [
-      "sorrow",
-      "brokenhearted",
-      "solace",
-      "fate"
+    "Geographic Features": [
+      "Village",
+      "Abode",
+      "Serene",
+      "Beacon"
     ],
-    "Medical Conditions and Treatment": [
-      "hospital",
-      "illness",
-      "holarthritis",
-      "pain"
+    "Physical Descriptions": [
+      "Feet",
+      "Hunched",
+      "Limbs",
+      "Standing"
     ],
-    "Negative Outcomes": [
-      "pain",
-      "cruel",
-      "joke",
-      "life"
+    "Personality Characteristics": [
+      "Notorious",
+      "Magnificent",
+      "Potent",
+      "Mesmerizing"
     ],
     "id": 57,
     "method": "tot"
   },
   {
-    "Professional Roles": [
-      "reporteress",
-      "ballerina",
-      "career",
-      "ballet"
+    "Words Associated with Fear": [
+      "Fear",
+      "Heart",
+      "Expectant",
+      "Faces"
     ],
-    "Emotional States": [
-      "resilience",
-      "distressed",
-      "devastated",
-      "hope"
+    "Uncommon Nouns": [
+      "Daze",
+      "Cave",
+      "Morn",
+      "Dawn"
     ],
-    "Unique Terminologies": [],
-    "Geography": [
-      "New York",
-      "city",
-      "global",
-      "world"
+    "Words Associated with Transformation": [
+      "Respect",
+      "Realized",
+      "Turned",
+      "Again"
+    ],
+    "Descriptive Words": [
+      "Sacred",
+      "Orange",
+      "Red-letter",
+      "Cherubic"
     ],
     "id": 58,
     "method": "tot"
   },
   {
-    "Weather Conditions": [
-      "icy",
-      "snow",
-      "frost",
-      "freeze"
+    "Synonyms for Unusual": [
+      "Peculiar",
+      "Strange",
+      "Unlikely",
+      "Riddle"
     ],
-    "Descriptive Adjectives": [
-      "ambitious",
-      "vibrant",
-      "unyielding",
-      "Resolute"
+    "Synonyms for Challenges": [
+      "Instinct",
+      "Lifestyle",
+      "Choices",
+      "Cravings"
     ],
-    "Emotional states": [
-      "unfazed",
-      "succumbed",
-      "resolute",
-      "undeterred."
+    "Noteworthy New York": [
+      "New York",
+      "Steakhouse",
+      "City",
+      "Skyscrapers"
     ],
-    "Profession-related words": [
-      "investigation",
-      "assignment",
-      "accident",
-      "truth"
+    "Human Descriptors": [
+      "Shoulders",
+      "Hunched",
+      "Stature",
+      "Physical"
     ],
     "id": 59,
     "method": "tot"
   },
   {
-    "Conditions": [
-      "disease",
-      "sickness",
-      "pain",
-      "distress"
-    ],
-    "States of Being": [
+    "Professions/Occupations": [
+      "conductor",
+      "robust",
       "vibrant",
-      "spirited",
-      "fervent",
-      "courageous"
+      "spectacle"
     ],
-    "Actions": [
-      "grappled",
-      "fought",
-      "surrender",
-      "conquer"
+    "Food-Related Terms": [
+      "diet",
+      "steak",
+      "dinner",
+      "meats"
     ],
-    "Literary Devices": [
-      "plate",
-      "floor",
-      "stone",
-      "ceramic"
+    "Nouns associated with Music": [
+      "Performance",
+      "Spectacle",
+      "Profession",
+      "Lifestyle"
+    ],
+    "Adjectives Descriptive of Character Traits": [
+      "Unusual",
+      "Unconventional",
+      "Eccentric",
+      "Unpredictable"
     ],
     "id": 60,
     "method": "tot"
   },
   {
-    "Names": [],
-    "Conditions and Symptoms": [
-      "stress",
-      "endurance",
-      "hardship",
-      "resilience"
+    "Artistic Techniques": [
+      "sculpture",
+      "texture",
+      "gallery",
+      "creating"
     ],
-    "Occupations and Roles": [],
-    "Descriptions": [
-      "laborious",
-      "humble",
-      "colossal",
-      "impending"
+    "Human Anatomy": [
+      "human",
+      "ear",
+      "bone",
+      "heart"
+    ],
+    "Geographical Features": [
+      "quaint",
+      "vibrant",
+      "sacred",
+      "heritage"
+    ],
+    "Emotional Attributes": [
+      "curious",
+      "energy",
+      "masterpiece",
+      "completion"
     ],
     "id": 61,
     "method": "tot"
   },
   {
-    "Occupations": [
-      "reporteress",
-      "career",
-      "popular",
-      "young"
+    "Art Movements": [
+      "Symphonic",
+      "Intricate",
+      "Melodic",
+      "Masterpiece"
     ],
-    "Descriptive Words": [
-      "unpayable",
-      "sclerotic",
-      "crippling",
-      "indomitable"
+    "Emotions and Reactions": [
+      "Awe",
+      "Curiosity",
+      "Belief",
+      "Profound"
     ],
-    "Emotive words": [
-      "whispers",
-      "gnawing",
-      "passion",
-      "spirit"
+    "Sensory Experiences": [
+      "Textures",
+      "Visual",
+      "Auditory",
+      "Sensation"
     ],
-    "Illness and Health": [
-      "disease",
-      "worn-out",
-      "young",
-      "old"
+    "Art Creation": [
+      "Brush",
+      "Strokes",
+      "Artist",
+      "Painting"
     ],
     "id": 62,
     "method": "tot"
   },
   {
-    "Professions": [
-      "woman",
-      "voice",
-      "ear",
-      "heart"
+    "Art Media": [
+      "Canvases",
+      "Colors",
+      "Stain",
+      "Hues"
     ],
     "Emotional States": [
-      "suffering",
-      "plight",
-      "pain",
-      "vulnerable"
+      "Passion",
+      "Resilience",
+      "Pathos",
+      "Creativity"
     ],
-    "Actions": [
-      "revealing",
-      "turning",
-      "growing",
-      "pursuing"
+    "Act of Creativity": [
+      "Painted",
+      "Wove",
+      "Imbued",
+      "Marred"
     ],
-    "Medical and health related": [
-      "arthritis",
-      "disease",
-      "holarthritis",
-      "sympathy"
+    "Uniqueness": [
+      "Multifarious",
+      "Eclectic",
+      "Secretive",
+      "Unspoilt"
     ],
     "id": 63,
     "method": "tot"
   },
   {
-    "Residents of Hartake": [
-      "Window",
-      "Passion",
-      "Struggle",
-      "Stories"
+    "Art-related Terms": [
+      "painter",
+      "canvas",
+      "art",
+      "canvases"
     ],
-    "Unseen Hindrances": [
-      "Holarthritis",
-      "Painful",
-      "Aching",
-      "High"
+    "States of Being": [
+      "obsessed",
+      "intrigued",
+      "entranced",
+      "enigma"
     ],
-    "Serene Dreams": [
-      "Quaint",
-      "Serenity",
-      "Perseverance",
-      "Inspirational"
+    "Descriptive Adjectives": [
+      "coarse",
+      "smooth",
+      "dark",
+      "rainy"
     ],
-    "Elements of Journalism": [
-      "Stories",
-      "Life",
-      "Heartbeat",
-      "Tales"
+    "Art Movements": [
+      "Artistic",
+      "Visual",
+      "Textured",
+      "Canvases"
     ],
     "id": 64,
+    "method": "tot"
+  },
+  {
+    "Abstract Concepts": [
+      "passion",
+      "emotions",
+      "despair",
+      "joy"
+    ],
+    "Unique Words": [
+      "kinesthetic",
+      "overhover",
+      "postexpressionist",
+      "overensing"
+    ],
+    "Artistry": [
+      "sculptor",
+      "art",
+      "sculptures",
+      "painting"
+    ],
+    "Nouns Related to Arts": [
+      "texture",
+      "abstraction",
+      "sculpture",
+      "marble"
+    ],
+    "id": 65,
     "method": "tot"
   }
 ]
