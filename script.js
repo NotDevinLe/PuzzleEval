@@ -68,7 +68,7 @@ send.addEventListener("click", async () => {
 })
 
 good.addEventListener("click", async () => {
-    const modelRef = doc(db, "PuzzleEvaluation", gameID);
+    const modelRef = doc(db, "PuzzleEvaluation", String(gameID));
     const modelSnap = await getDoc(modelRef);
 
     let goodCount = 0
@@ -90,7 +90,7 @@ good.addEventListener("click", async () => {
 
 
 bad.addEventListener("click", async () => {
-  const modelRef = doc(db, "PuzzleEvaluation", gameID);
+  const modelRef = doc(db, "PuzzleEvaluation", String(gameID));
   const modelSnap = await getDoc(modelRef);
 
   let totalCount = 0
