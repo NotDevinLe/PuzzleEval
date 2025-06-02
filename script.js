@@ -37,6 +37,12 @@ generate.addEventListener("click", async () => {
     loadGame(game)
     good.disabled = false
     bad.disabled = false
+
+    const message = document.getElementById("message");
+    message.textContent = "Select 4 words that belong to the same category";
+    message.className = "message";
+
+    hideResultOverlay();
 })
 
 send.addEventListener("click", async () => {
@@ -61,14 +67,20 @@ send.addEventListener("click", async () => {
                     tile.classList.remove("selected");
                     tile.classList.add("correct");
                   });
-                  selected = []
+                  selected = [];
+                  
                   message.textContent = "You got a grouping correct!"
-                  return
+                  message.className = "message success";
+
+                  showSuccessOverlay();
+                  createConfetti();
+
+                  return;
             }
         }
         message.textContent = `You were ${4 - highest} word(s) away.`
-
-
+        message.className = "message error";
+        showErrorOverlay();
     }
 })
 
@@ -142,6 +154,11 @@ function loadGame(game) {
         }
         board.appendChild(tile)
     }
+    
+    const message = document.getElementById("message");
+    message.className = "message";
+    message.textContent = "Select 4 words that belong to the same category";
+  
 }
 
 function shuffle(array) {
@@ -150,9 +167,9 @@ function shuffle(array) {
       [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
-  }
+}
 
-  function toggleSelection(tile) {
+function toggleSelection(tile) {
     if (!tile.classList.contains("selected") && selected.length < 4) {
         tile.classList.add("selected");
         selected.push(tile);
@@ -160,4 +177,73 @@ function shuffle(array) {
         tile.classList.remove("selected");
         selected = selected.filter(t => t !== tile);
     }
+}
+
+function showSuccessOverlay() {
+  resultIcon.innerHTML = '<i class="fas fa-check-circle"></i>';
+  resultIcon.className = "result-icon success";
+  resultOverlay.className = "result-overlay success visible";
+
+  setTimeout(() => {
+      hideResultOverlay();
+  }, 1500);
+}
+
+function showErrorOverlay() {
+  resultIcon.innerHTML = '<i class="fas fa-times"></i>';
+  resultIcon.className = "result-icon error";
+  resultOverlay.className = "result-overlay error visible";
+  
+  setTimeout(() => {
+      hideResultOverlay();
+  }, 1500);
+}
+
+function hideResultOverlay() {
+    resultOverlay.className = "result-overlay";
+}
+
+function createConfetti() {
+  const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+  const container = document.querySelector('body');
+
+  for (let i = 0; i < 50; i++) {
+      const confetti = document.createElement('div');
+      confetti.className = 'confetti';
+      
+
+      const size = Math.random() * 10 + 5;
+      const color = colors[Math.floor(Math.random() * colors.length)];
+      
+      confetti.style.width = `${size}px`;
+      confetti.style.height = `${size}px`;
+      confetti.style.backgroundColor = color;
+      confetti.style.left = `${Math.random() * 100}vw`;
+      confetti.style.top = `-20px`;
+      
+      container.appendChild(confetti);
+      
+
+      const animation = confetti.animate(
+          [
+              { 
+                  transform: `translate(0, 0) rotate(0deg)`,
+                  opacity: 1
+              },
+              { 
+                  transform: `translate(${Math.random() * 200 - 100}px, ${Math.random() * 500 + 500}px) rotate(${Math.random() * 360}deg)`,
+                  opacity: 0
+              }
+          ],
+          {
+              duration: Math.random() * 2000 + 1500,
+              easing: 'cubic-bezier(0.1, 0.8, 0.9, 0.2)'
+          }
+      );
+      
+
+      animation.onfinish = () => {
+          confetti.remove();
+      };
+  }
 }

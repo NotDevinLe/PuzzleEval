@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generation</title>
+    <title>PuzzleEval - Word Grouping Game</title>
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
       <div class="evaluate-container">
-        <h1>Play Generated Puzzles:</h1>
-        <p>Instructions: Click generate to make a new puzzle. Afterwards, you can play a game and choose groups. If you're satisified with your grouping, click send. Rate the puzzle good or bad after you're done.</p>
+        <h1>Play Generated Puzzles</h1>
+        <div class="instructions">
+          <p>Instructions: Click generate to make a new puzzle. Select 4 words that you think belong to the same category, then click send. Rate the puzzle good or bad after you're done.</p>
+        </div>
+        
         <div id="message" class="message">
-
+          Select 4 words that belong to the same category
+        </div>
+        
+        <div id="result-overlay" class="result-overlay">
+          <div id="result-icon" class="result-icon"></div>
         </div>
         <div id="board">
     
