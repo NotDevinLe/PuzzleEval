@@ -372,3 +372,106 @@ button:disabled {
   background-color: #f00;
   opacity: 0;
 }
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  
+  .evaluate-container {
+    padding: 20px;
+    margin: 0 5px;
+  }
+  
+  #board {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 15px;
+    margin: 15px 5px;
+    max-width: calc(100vw - 30px);
+  }
+  
+  .word-tile-game {
+    padding: 12px 8px;
+    font-size: 15px;
+  }
+  
+  .buttons {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  button {
+    width: 120px;
+    height: 50px;
+    font-size: 1rem;
+  }
+  
+  .instructions {
+    margin: 0 5px 15px;
+    padding: 12px;
+  }
+  
+  .message {
+    margin: 15px 5px;
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+  
+  .model-col {
+    width: 100%;
+    max-width: calc(100vw - 30px);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 5px;
+  }
+  
+  .evaluate-container {
+    padding: 15px;
+    margin: 0;
+  }
+  
+  #board {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    max-width: 100%;
+  }
+  
+  .word-tile-game {
+    padding: 10px 6px;
+    font-size: 14px;
+  }
+  
+  button {
+    width: 100px;
+    height: 45px;
+    font-size: 0.9rem;
+  }
+  
+  .instructions {
+    margin: 0 0 10px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .message {
+    margin: 10px 0;
+    padding: 10px 12px;
+    font-size: 15px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .model-col {
+    width: 100%;
+  }
+}
