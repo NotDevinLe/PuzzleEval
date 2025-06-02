@@ -150,27 +150,3 @@ function shuffle(array) {
         selected = selected.filter(t => t !== tile);
     }
 }
-
-onSnapshot(collection(db, "PuzzleGeneration"), (snapshot) => {
-    const models = [];
-  
-    snapshot.forEach(doc => {
-      const data = doc.data();
-      models.push({
-        name: doc.id,
-        elo: data.elo || 1000
-      });
-    });
-  
-    models.sort((a, b) => b.elo - a.elo);
-  
-    const leaderboardBox = document.getElementById("leaderboard-box");
-    leaderboardBox.innerHTML = "";
-  
-    models.forEach((model, index) => {
-      const entry = document.createElement("div");
-      entry.className = "leaderboard-entry";
-      entry.textContent = `${index + 1}. ${model.name} (ELO: ${model.elo})`;
-      leaderboardBox.appendChild(entry);
-    });
-  });
