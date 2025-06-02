@@ -35,6 +35,8 @@ generate.addEventListener("click", async () => {
     game = games[Math.floor(Math.random() * games.length)];
 
     loadGame(game)
+    good.disabled = false
+    bad.disabled = false
 })
 
 send.addEventListener("click", async () => {
@@ -85,6 +87,9 @@ good.addEventListener("click", async () => {
       good: goodCount + 1,
       total: totalCount + 1,
     });
+
+    good.disabled = true
+    bad.disabled = true
   
   });
 
@@ -104,6 +109,9 @@ bad.addEventListener("click", async () => {
   await updateDoc(modelRef, {
     total: totalCount + 1,
   });
+
+  good.disabled = true
+  bad.disabled = true
 
 });
 
