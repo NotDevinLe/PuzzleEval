@@ -45,6 +45,9 @@ send.addEventListener("click", async () => {
         const selectedWords = selected.map(tile => tile.textContent);
         const message = document.getElementById("message")
         for (const category in game) {
+            if (category == "id" || category == "method") {
+              continue
+            }
             let currGroupings = 0
             for (const word of game[category]) {
                 if (selectedWords.includes(word)) {
