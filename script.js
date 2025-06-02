@@ -72,7 +72,7 @@ send.addEventListener("click", async () => {
                   });
                   selected = [];
                   
-                  message.textContent = "You got a grouping correct!"
+                  message.textContent = `Correct! Category: ${category}`
                   message.className = "message success";
 
                   showSuccessOverlay();
