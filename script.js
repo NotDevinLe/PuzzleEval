@@ -1,6 +1,9 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.7.3/firebase-app.js";
 import { getFirestore, collection, addDoc, onSnapshot, doc, updateDoc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/11.7.3/firebase-firestore.js";
 
+const resultOverlay = document.getElementById("result-overlay");
+const resultIcon = document.getElementById("result-icon");
+
 const firebaseConfig = {
   apiKey: "AIzaSyBwGgvtyEzA_SvpFnTf867yP1WTZReDcdI",
   authDomain: "thinkeval.firebaseapp.com",
