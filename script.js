@@ -26,6 +26,7 @@ const bad = document.getElementById("bad")
 // Custom puzzle creator elements
 const previewPuzzle = document.getElementById("preview-puzzle")
 const playCustom = document.getElementById("play-custom")
+const sharePuzzle = document.getElementById("share-puzzle")
 const clearForm = document.getElementById("clear-form")
 const previewBoard = document.getElementById("preview-board")
 
@@ -35,6 +36,11 @@ let gameID = -1
 let method = ""
 let customPuzzle = null
 let isPlayingCustom = false
+
+// Check for shared puzzle on page load
+window.addEventListener('DOMContentLoaded', () => {
+    checkForSharedPuzzle();
+});
 
 generate.addEventListener("click", async () => {
     board.innerHTML = "";
@@ -266,7 +272,12 @@ previewPuzzle.addEventListener("click", () => {
         customPuzzle = puzzle;
         updatePreview(puzzle);
         playCustom.disabled = false;
+        sharePuzzle.disabled = false;
     }
+});
+
+sharePuzzle.addEventListener("click", () => {
+    generateShareableLink();
 });
 
 playCustom.addEventListener("click", () => {
@@ -316,6 +327,7 @@ clearForm.addEventListener("click", () => {
     }
     
     playCustom.disabled = true;
+    sharePuzzle.disabled = true;
     customPuzzle = null;
 });
 
@@ -399,3 +411,116 @@ function initializePreview() {
 
 // Initialize preview on page load
 initializePreview();
+
+// URL Sharing Functions
+function encodeCustomPuzzle(puzzle) {
+    const puzzleData = {
+        categories: [],
+        title: document.getElementById("puzzle-title").value.trim() || "Custom Puzzle",
+        author: document.getElementById("puzzle-author").value.trim() || "Anonymous"
+    };
+    
+    for (const category in puzzle) {
+        if (category !== "id" && category !== "method") {
+            puzzleData.categories.push({
+                name: category,
+                words: puzzle[category]
+            });
+        }
+    }
+    
+    const jsonString = JSON.stringify(puzzleData);
+    return btoa(encodeURIComponent(jsonString));
+}
+
+function decodeCustomPuzzle(encodedData) {
+    try {
+        const jsonString = decodeURIComponent(atob(encodedData));
+        const puzzleData = JSON.parse(jsonString);
+        
+        const puzzle = {
+            id: "shared",
+            method: "shared"
+        };
+        
+        puzzleData.categories.forEach(category => {
+            puzzle[category.name] = category.words;
+        });
+        
+        return {
+            puzzle: puzzle,
+            title: puzzleData.title,
+            author: puzzleData.author
+        };
+    } catch (error) {
+        console.error("Error decoding puzzle:", error);
+        return null;
+    }
+}
+
+function checkForSharedPuzzle() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const sharedPuzzle = urlParams.get('puzzle');
+    
+    if (sharedPuzzle) {
+        const decodedData = decodeCustomPuzzle(sharedPuzzle);
+        if (decodedData) {
+            // Load the shared puzzle
+            customPuzzle = decodedData.puzzle;
+            
+            // Show a message about the shared puzzle
+            const message = document.getElementById("message");
+            message.textContent = `Playing "${decodedData.title}" by ${decodedData.author}`;
+            message.className = "message";
+            
+            // Auto-play the shared puzzle
+            isPlayingCustom = true;
+            board.innerHTML = "";
+            selected = [];
+            game = customPuzzle;
+            gameID = -1;
+            method = "shared";
+            
+            loadGame(customPuzzle);
+            good.disabled = true;
+            bad.disabled = true;
+            
+            hideResultOverlay();
+            
+            // Scroll to the game board
+            setTimeout(() => {
+                document.getElementById("board").scrollIntoView({ behavior: 'smooth' });
+            }, 500);
+        } else {
+            alert("Invalid puzzle link. Please check the URL and try again.");
+        }
+    }
+}
+
+function generateShareableLink() {
+    if (!customPuzzle) {
+        alert("Please create a puzzle first before generating a shareable link.");
+        return;
+    }
+    
+    const encodedPuzzle = encodeCustomPuzzle(customPuzzle);
+    const baseUrl = window.location.origin + window.location.pathname;
+    const shareUrl = `${baseUrl}?puzzle=${encodedPuzzle}`;
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(shareUrl).then(() => {
+        // Show success message
+        const shareButton = document.getElementById("share-puzzle");
+        const originalText = shareButton.textContent;
+        shareButton.textContent = "Link Copied!";
+        shareButton.style.backgroundColor = "#10b981";
+        
+        setTimeout(() => {
+            shareButton.textContent = originalText;
+            shareButton.style.backgroundColor = "";
+        }, 2000);
+    }).catch(err => {
+        // Fallback: show the URL in a prompt
+        prompt("Copy this link to share your puzzle:", shareUrl);
+    });
+}
