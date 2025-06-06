@@ -140,90 +140,6 @@
     "method": "cot"
   },
   {
-    "Proper Nouns": [
-      "Beetner",
-      "VDU",
-      "Headhunters",
-      "Intergrave"
-    ],
-    "Professions or Related Terms": [
-      "Coder",
-      "Headhunters",
-      "Job",
-      "Talent"
-    ],
-    "Objects or Concepts": [
-      "Computer",
-      "VDU",
-      "Life",
-      "Haven"
-    ],
-    "Verbs": [
-      "Approached",
-      "Recognized",
-      "Rejected",
-      "Revolved"
-    ],
-    "id": 5,
-    "method": "cot"
-  },
-  {
-    "Spiritual Practices": [
-      "Spiritualization",
-      "Ritual",
-      "Faith",
-      "Community Protection"
-    ],
-    "Geographic Locations": [
-      "Village",
-      "Kinksbush",
-      "Green Hills",
-      "Heart"
-    ],
-    "Light and Darkness": [
-      "Flame-uplifted",
-      "Beacon",
-      "Illuminating",
-      "Darkness"
-    ],
-    "Descriptive Adjectives": [
-      "Punishment-proof",
-      "Intricate",
-      "Fierce",
-      "Hopeful"
-    ],
-    "id": 6,
-    "method": "cot"
-  },
-  {
-    "Names in the Story": [
-      "Barthold",
-      "Ellabell",
-      "urosome",
-      "trapdoors"
-    ],
-    "Anagrams of Names in the Story": [
-      "ladBroth",
-      "Belllae",
-      "oureosm",
-      "roaptdsra"
-    ],
-    "Synonyms": [
-      "posterior",
-      "gateway",
-      "hamlet",
-      "person"
-    ],
-    "Fill-in-the-blank": [
-      "_____hole",
-      "_____bell",
-      "_____some",
-      "_____old"
-    ],
-    "id": 7,
-    "method": "cot"
-  },
-  {
     "Synonyms for Reluctance to Change": [
       "nonadaptor",
       "resistant",
@@ -308,118 +224,6 @@
     "method": "cot"
   },
   {
-    "Fictional and Real Coastal Locations": [
-      "Skeetsville",
-      "seashore",
-      "bay",
-      "harbor"
-    ],
-    "Strength and Muscle Terminology": [
-      "acromioclavicular",
-      "muscular",
-      "brawny",
-      "hefty"
-    ],
-    "Seafaring Slang": [
-      "seamanly",
-      "buccaneer",
-      "mariner",
-      "boatswain"
-    ],
-    "Pun Names": [
-      "Didus",
-      "Simon Lee",
-      "Carrie Oki",
-      "Claire Vicle"
-    ],
-    "id": 11,
-    "method": "cot"
-  },
-  {
-    "Misfit Words": [
-      "Professor",
-      "Indianola",
-      "World",
-      "Kidney"
-    ],
-    "Synonyms for Mildness": [
-      "Gentle-mindedly",
-      "Softly",
-      "Quietly",
-      "Peacefully"
-    ],
-    "Kidney-related Medical Terms": [
-      "Nephrotomies",
-      "Nephrectomy",
-      "Renal",
-      "Ureter"
-    ],
-    "Life's Journey Stages": [
-      "Small Town",
-      "World-Discovering",
-      "Learning",
-      "Transformation"
-    ],
-    "id": 12,
-    "method": "cot"
-  },
-  {
-    "Obscure Biological Terminology": [
-      "Ectoplacenta",
-      "Coliiformes",
-      "Trispermous",
-      "Unreclaimable"
-    ],
-    "Birds": [
-      "Parrot",
-      "Hawk",
-      "Coliiformes",
-      "Eagle"
-    ],
-    "Biological Processes": [
-      "Metamorphosis",
-      "Evolution",
-      "Ectoplacenta",
-      "Trispermous"
-    ],
-    "Inalterable Conditions": [
-      "Irreversible",
-      "Immutable",
-      "Fixed",
-      "Unreclaimable"
-    ],
-    "id": 13,
-    "method": "cot"
-  },
-  {
-    "Historical Figures and Fictional Characters": [
-      "Houdini",
-      "grandmother",
-      "neighborhood Houdini",
-      "bullethead"
-    ],
-    "Objects and Places": [
-      "attic",
-      "dust",
-      "atticomastoid bone model",
-      "dare"
-    ],
-    "Slang, Nicknames and Unusual Terms": [
-      "bullethead",
-      "Houdini",
-      "medically strange object",
-      "relic"
-    ],
-    "Places and States of Being": [
-      "grandmother\u2019s attic",
-      "neighborhood",
-      "gloom",
-      "past"
-    ],
-    "id": 14,
-    "method": "cot"
-  },
-  {
     "Fish Types": [
       "Oscar",
       "Goldfish",
@@ -445,28 +249,6 @@
       "Crank"
     ],
     "id": 15,
-    "method": "cot"
-  },
-  {
-    "Astronomy and Physics": [
-      "planet",
-      "reservoir",
-      "laser",
-      "ellipticity"
-    ],
-    "Abstract Nouns": [
-      "obsession",
-      "dedication",
-      "seriousness",
-      "complexity"
-    ],
-    "Verbs": [
-      "aim",
-      "create",
-      "measure",
-      "treat"
-    ],
-    "id": 16,
     "method": "cot"
   },
   {
@@ -523,62 +305,6 @@
       "maori"
     ],
     "id": 18,
-    "method": "cot"
-  },
-  {
-    "Desert Landforms": [
-      "erg",
-      "dune",
-      "oasis",
-      "sandstorm"
-    ],
-    "Infrequently Used Verbs": [
-      "arointed",
-      "eschewed",
-      "absconded",
-      "ensnared"
-    ],
-    "English Language Prefixes": [
-      "extro-",
-      "trans-",
-      "intro-",
-      "retro-"
-    ],
-    "Plants Native to Arid Regions": [
-      "chichipate",
-      "saguaro",
-      "yucca",
-      "prickly pear"
-    ],
-    "id": 19,
-    "method": "cot"
-  },
-  {
-    "Synonyms": [
-      "valiance",
-      "bravery",
-      "courage",
-      "heroism"
-    ],
-    "Uncommon English Words": [
-      "fray",
-      "bidcock",
-      "greenscape",
-      "brother-in-arms"
-    ],
-    "Words Associated with Actions": [
-      "lax-flowered",
-      "bowing",
-      "charge",
-      "standing"
-    ],
-    "Fill-in-the-blank": [
-      "f _ _ _ ful",
-      "f _ _ rest",
-      "_ _  _ _ ting",
-      "_ _  _ _mand"
-    ],
-    "id": 20,
     "method": "cot"
   },
   {
@@ -694,62 +420,6 @@
     "method": "cot"
   },
   {
-    "Synonyms for Condensed": [
-      "abridged",
-      "compressed",
-      "condensed",
-      "shortened"
-    ],
-    "Synonyms for Atonement": [
-      "atonement",
-      "redemption",
-      "penance",
-      "restitution"
-    ],
-    "Associated with Optimism": [
-      "optimist",
-      "glass-half-full",
-      "upbeat",
-      "positive-thinking"
-    ],
-    "Related to Semi-Happiness": [
-      "semi-happy",
-      "partly-joyous",
-      "half-cheerful",
-      "pseudo-merry"
-    ],
-    "id": 25,
-    "method": "cot"
-  },
-  {
-    "Plant Species": [
-      "Job's-tears",
-      "babe's",
-      "dysanagnosia",
-      "apiece"
-    ],
-    "Word Length": [
-      "babe's",
-      "apiece",
-      "Job's-tears",
-      "dysanagnosia"
-    ],
-    "Definitions": [
-      "Job's-tears",
-      "babe's",
-      "dysanagnosia",
-      "apiece"
-    ],
-    "Fill in the blank": [
-      "Job's-_____",
-      "____'s",
-      "_____agnosia",
-      "a_____"
-    ],
-    "id": 26,
-    "method": "cot"
-  },
-  {
     "Equipment for Ground Maintenance": [
       "Lawn-roller",
       "Mower",
@@ -803,118 +473,6 @@
       "Everywhere"
     ],
     "id": 28,
-    "method": "cot"
-  },
-  {
-    "Common Names": [
-      "Ariana",
-      "Joni",
-      "Coffee",
-      "Puzzle"
-    ],
-    "Synonyms for Difficult": [
-      "Arduous",
-      "Brain Teaser",
-      "Hard",
-      "Knotty"
-    ],
-    "Puzzle Types": [
-      "Sprong",
-      "Sudoku",
-      "Jigsaw",
-      "Rubik's Cube"
-    ],
-    "Collectibles": [
-      "Puzzle",
-      "Stamp",
-      "Coin",
-      "Record"
-    ],
-    "id": 29,
-    "method": "cot"
-  },
-  {
-    "Sounds Often Associated with Forests": [
-      "Whisper",
-      "Symphony",
-      "Echo",
-      "Undercurrent"
-    ],
-    "Fictional or Mythical Places": [
-      "Asgard",
-      "Avalon",
-      "Narnia",
-      "Bamoth"
-    ],
-    "Languages in Uralic Family": [
-      "Finnish",
-      "Hungarian",
-      "Estonian",
-      "Sami"
-    ],
-    "Fantasy Creatures": [
-      "Elf",
-      "Nymph",
-      "Sylph",
-      "Centaur"
-    ],
-    "id": 30,
-    "method": "cot"
-  },
-  {
-    "Uncommon Words": [
-      "nonabdication",
-      "antidynastical",
-      "dindled",
-      "phonomotor"
-    ],
-    "Sound Related Words": [
-      "dindled",
-      "phonomotor",
-      "echo",
-      "resonance"
-    ],
-    "Monarchy Related Terms": [
-      "nonabdication",
-      "prince",
-      "reign",
-      "antidynastical"
-    ],
-    "Child's Play": [
-      "play",
-      "phonomotor",
-      "dindled",
-      "grow."
-    ],
-    "id": 31,
-    "method": "cot"
-  },
-  {
-    "Animal Names": [
-      "Cornelius",
-      "Havdala",
-      "Corn-snake",
-      "Cantankerous"
-    ],
-    "Descriptive Adjectives": [
-      "Bombastic",
-      "Cantankerous",
-      "Peculiar",
-      "Colorful"
-    ],
-    "Expressions for Talkative": [
-      "Bombast",
-      "Regaling",
-      "Colorful stories",
-      "Death-defying exploits"
-    ],
-    "Components of a Story": [
-      "Habit",
-      "Exploits",
-      "Town of Havdala",
-      "Corn-snake named Cornelius"
-    ],
-    "id": 32,
     "method": "cot"
   },
   {
@@ -1198,34 +756,6 @@
     "method": "cot"
   },
   {
-    "Professions": [
-      "Celebrity",
-      "Tea Seller",
-      "Ballet Dancer",
-      "Robot"
-    ],
-    "Things related to tea": [
-      "Tea Seller",
-      "Infusion",
-      "Serving",
-      "Afternoon"
-    ],
-    "Emotions/Feelings": [
-      "Awe",
-      "Killjoy",
-      "Intriguing",
-      "Saddening"
-    ],
-    "Showbiz terms": [
-      "Celebrity",
-      "Performance",
-      "Stage",
-      "Audience"
-    ],
-    "id": 43,
-    "method": "cot"
-  },
-  {
     "Occupations": [
       "underkeeper",
       "farmer",
@@ -1251,34 +781,6 @@
       "underdog"
     ],
     "id": 44,
-    "method": "cot"
-  },
-  {
-    "Professions in Criminal Analysis": [
-      "Julian",
-      "profiler",
-      "criminal",
-      "analysis"
-    ],
-    "Concepts of Change": [
-      "Autumn",
-      "alterative",
-      "change",
-      "transition"
-    ],
-    "Aspects of Tradition & Culture": [
-      "Sosthina",
-      "noncelebration",
-      "commune",
-      "values"
-    ],
-    "Negative Prefixes in English Language": [
-      "Noncelebration",
-      "non-happenings",
-      "unknown",
-      "no-rush"
-    ],
-    "id": 45,
     "method": "cot"
   },
   {
@@ -1338,34 +840,6 @@
     "method": "tot"
   },
   {
-    "Ecological Terms": [
-      "flora",
-      "Atelopodia",
-      "ecosystem",
-      "flora"
-    ],
-    "Emotive Descriptions": [
-      "vibrant",
-      "energetic",
-      "magical",
-      "enchanting"
-    ],
-    "Lifecycle Process": [
-      "growth",
-      "rebirth",
-      "descended",
-      "radiance"
-    ],
-    "Positive Emotions": [
-      "Vibrancy",
-      "Aura",
-      "Energy",
-      "Radiance"
-    ],
-    "id": 48,
-    "method": "tot"
-  },
-  {
     "Life Cycles": [
       "seeds",
       "nurturing",
@@ -1422,34 +896,6 @@
     "method": "tot"
   },
   {
-    "Names and Nouns": [
-      "Atelopodia",
-      "appendages",
-      "bird",
-      "nest."
-    ],
-    "Adjectives": [
-      "peculiar",
-      "stunning",
-      "joyful",
-      "surreal"
-    ],
-    "Verbs": [
-      "dwelling",
-      "resonating",
-      "effusing",
-      "flourishing"
-    ],
-    "Sadness-Related": [
-      "peace",
-      "tranquility",
-      "enlightened",
-      "joy"
-    ],
-    "id": 51,
-    "method": "tot"
-  },
-  {
     "Tropical Places": [
       "heat",
       "sun",
@@ -1475,34 +921,6 @@
       "aged"
     ],
     "id": 52,
-    "method": "tot"
-  },
-  {
-    "Musical Terms": [
-      "synth",
-      "instrument",
-      "music",
-      "rhythm"
-    ],
-    "Nostalgia Inducing Words": [
-      "memories",
-      "nostalgic",
-      "recollecting",
-      "traditions"
-    ],
-    "Descriptive Words": [
-      "vibrant",
-      "narrow",
-      "bright",
-      "bright"
-    ],
-    "Emotions and Feelings": [
-      "embraced",
-      "outshifted",
-      "echoed",
-      "beat"
-    ],
-    "id": 53,
     "method": "tot"
   },
   {
@@ -1674,34 +1092,6 @@
     "method": "tot"
   },
   {
-    "Professions/Occupations": [
-      "conductor",
-      "robust",
-      "vibrant",
-      "spectacle"
-    ],
-    "Food-Related Terms": [
-      "diet",
-      "steak",
-      "dinner",
-      "meats"
-    ],
-    "Nouns associated with Music": [
-      "Performance",
-      "Spectacle",
-      "Profession",
-      "Lifestyle"
-    ],
-    "Adjectives Descriptive of Character Traits": [
-      "Unusual",
-      "Unconventional",
-      "Eccentric",
-      "Unpredictable"
-    ],
-    "id": 60,
-    "method": "tot"
-  },
-  {
     "Artistic Techniques": [
       "sculpture",
       "texture",
@@ -1783,34 +1173,6 @@
       "Unspoilt"
     ],
     "id": 63,
-    "method": "tot"
-  },
-  {
-    "Art-related Terms": [
-      "painter",
-      "canvas",
-      "art",
-      "canvases"
-    ],
-    "States of Being": [
-      "obsessed",
-      "intrigued",
-      "entranced",
-      "enigma"
-    ],
-    "Descriptive Adjectives": [
-      "coarse",
-      "smooth",
-      "dark",
-      "rainy"
-    ],
-    "Art Movements": [
-      "Artistic",
-      "Visual",
-      "Textured",
-      "Canvases"
-    ],
-    "id": 64,
     "method": "tot"
   },
   {
